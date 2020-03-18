@@ -1,0 +1,37 @@
+{
+  "name": "authentication-api",
+  "version": "1.0.0",
+  "description": "Authentication api example",
+  "main": "index.js",
+  "scripts": {
+		"start": "node index.js",
+		"local": "nodemon index.js",
+		"test": "echo test stub",
+		"release": "git add . && git commit -m \"Updating\" && git push"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewJRoybal/Authentication-api.git"
+  },
+  "author": "Matthew J Roybal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewJRoybal/Authentication-api/issues"
+  },
+  "homepage": "https://github.com/MatthewJRoybal/Authentication-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "rand-token": "^0.4.0"
+  }
+}
